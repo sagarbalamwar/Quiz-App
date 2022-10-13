@@ -9,8 +9,8 @@
 }
 
 :root {
-  --hue-neutral: 200;
   --hue-wrong: 0;
+  --hue-neutral: 200;
   --hue-correct: 145;
 }
 body {
@@ -60,21 +60,22 @@ body {
 }
 
 .btn.wrong {
-  --hue: var(var(--hue-wrong));
+  --hue: var(--hue-wrong);
 }
 
-.start-btn,.next-btn{
+.start-btn,
+.next-btn {
   font-size: 1.5rem;
   font-weight: bold;
   padding: 10px 20px;
 }
 
-.controls{
+.controls {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.hide{
+.hide {
   display: none;
 }
